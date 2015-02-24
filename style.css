@@ -1,11 +1,10 @@
-#Label1 { color:blue; font-size:24px; margin-bottom: 30 px; }
-
+#Label1 { color:blue; font-size:24px; padding-bottom: 30 px; }
 
 #form1  {
 
-	width: 100 px;
+	width: 300px;
+    padding: 25px;
+    border: outset 10px blue;
+    margin: 25px;
 	background-color: grey; 
-	border-style: outset;
-    border-width: 10px;
-	border-color: blue; 
 }

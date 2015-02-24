@@ -12,7 +12,7 @@
     <div>
     
         <asp:Label ID="Label2" runat="server" Text="Hours Worked:"></asp:Label>
-        <asp:TextBox ID="hoursWorkedTB" runat="server" style="margin-left: 71px" Width="114px" Height="16px"></asp:TextBox>
+        <asp:TextBox ID="hoursWorkedTB" runat="server" style="margin-left: 70px" Width="114px" Height="16px"></asp:TextBox>
         <br />
         <asp:Label ID="Label3" runat="server" Text="Hourly Wage:"></asp:Label>
         <asp:TextBox ID="hourlyWageTB" runat="server" style="margin-left: 79px" Width="114px" Height="16px"></asp:TextBox>
