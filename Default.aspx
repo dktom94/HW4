@@ -12,7 +12,7 @@
     <div>
     
         <asp:Label ID="Label2" runat="server" Text="Hours Worked:"></asp:Label>
-        <asp:TextBox ID="hoursWorkedTB" runat="server" style="margin-left: 70px" Width="114px" Height="16px"></asp:TextBox>
+        <asp:TextBox ID="hoursWorkedTB" runat="server" style="margin-left: 71px" Width="114px" Height="16px"></asp:TextBox>
         <br />
         <asp:Label ID="Label3" runat="server" Text="Hourly Wage:"></asp:Label>
         <asp:TextBox ID="hourlyWageTB" runat="server" style="margin-left: 79px" Width="114px" Height="16px"></asp:TextBox>
@@ -22,11 +22,13 @@
         <asp:TextBox ID="deductionsTB" runat="server" Height="16px" style="margin-left: 29px" Width="114px"></asp:TextBox>
     
     </div>
-        <asp:Button ID="Button1" runat="server" Text="Calculate Salary " style="margin-left: 21px; margin-top: 18px" Width="151px" />
+        Post-Tax Deductions:<asp:TextBox ID="postTaxDeductTB" runat="server" Height="16px" style="margin-left: 35px" ValidateRequestMode="Disabled" ViewStateMode="Disabled" Width="114px"></asp:TextBox>
+        <br />
+        <asp:Button ID="Button1" runat="server" Text="Calculate Salary " style="margin-left: 21px; margin-top: 22px" Width="151px" />
         <asp:Button ID="Button2" runat="server" Text="Clear" style="margin-left: 20px" Width="47px" />
         <p>
             <asp:Label ID="Label5" runat="server" Text="Salary: "></asp:Label>
-            <asp:TextBox ID="salaryTB" runat="server" style="margin-left: 120px" Height="16px" Width="114px" ReadOnly="True"></asp:TextBox>
+            <asp:TextBox ID="salaryTB" runat="server" style="margin-left: 122px" Height="16px" Width="114px" ReadOnly="True"></asp:TextBox>
         </p>
     </form>
 </body>

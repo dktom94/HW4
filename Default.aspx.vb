@@ -7,7 +7,10 @@ Partial Class _Default
         Dim hourlyPay As Decimal = hourlyWageTB.Text
         Dim hoursWorked As Decimal = hoursWorkedTB.Text
         Dim deductions As Decimal = deductionsTB.Text
+        Dim deductions2 As Decimal = postTaxDeductTB.Text
         Dim rate As Decimal = 0
+
+
         Dim pay As Decimal = 0
         Dim netPay As Decimal = 0
 
@@ -18,14 +21,14 @@ Partial Class _Default
         Else : rate = 0.22
         End If
 
-        netPay = (pay - deductions) * (1 - rate)
+        netPay = (pay - deductions) * (1 - rate) - deductions2
 
         salaryTB.Text = String.Format("{0:C}", netPay)
 
         hourlyWageTB.Text = ""
         hoursWorkedTB.Text = ""
         deductionsTB.Text = ""
-
+        postTaxDeductTB.Text = ""
 
 
 
